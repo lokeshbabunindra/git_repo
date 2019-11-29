@@ -1,0 +1,162 @@
+    1  alias cls=clear
+    2  cls
+    3  kscma;s]
+    4  ksm;ml
+    5  s;c,al,ss
+    6  clear
+    7  cls
+    8  ps 
+    9  ps -e
+   10  ps -e |sed '0,10p'
+   11  ps -e |grep $1
+   12  ps -e |grep '$1'
+   13  ps -e |grep '$5'
+   14  ps -e |grep 
+   15  cd ~/
+   16  cd /
+   17  cd
+   18  ls -a
+   19  ll
+   20  touch file
+   21  ll
+   22  chmod u=r file
+   23  ll
+   24  chmod u+w file
+   25  ll
+   26  chmod g+w file
+   27  ll
+   28  chmod g=w file
+   29  ll
+   30  chmod u=wrx,g=wrx file 
+   31  ll
+   32  mkdir dir
+   33  ll
+   34  chmod g=wx .ssh
+   35  ll
+   36  ll -s
+   37  ll -S
+   38  ll -t
+   39  ls -f
+   40  ls -d
+   41  ls -d */
+   42  cd /
+   43  ls -d */
+   44  ls a to z*
+   45  lo z*
+   46  ls a to z *
+   47  ll -s -h
+   48  ls
+   49  ll -S -h
+   50  ls -t
+   51  ll -t
+   52  mkdir loki
+   53  ll -t
+   54  ll -t -T
+   55  ll -t
+   56  test -e
+   57  test -e loki
+   58  echo $?
+   59  test -e lokijhh
+   60  echo $?
+   61  find loki
+   62  find lokikjh
+   63  find LOKI
+   64  find -i LOKI
+   65  find -iname LOKI
+   66  find -i LOKI
+   67  find -iname LOKI
+   68  du
+   69  cls
+   70  df
+   71  du -iname LOKI
+   72  du loki
+   73  du -h loki
+   74  du -ht loki
+   75  du -h -t loki
+   76  du -h -R loki
+   77  ll -t
+   78  ls -t
+   79  ll -t 
+   80  ll -h -t
+   81  alias llt=ll-t
+   82  llt
+   83  alias llt=ll -t
+   84  alias llt='ll -t'
+   85  llt
+   86  rmdir -p folder/foler1
+   87  mkdir -p folder/foler1
+   88  ls
+   89  cd folder/
+   90  ls
+   91  cd /
+   92  mkdir -p dir/dir1/dir2/file
+   93  cd ~dir
+   94  cd ~/dir
+   95  cd ~/dir2
+   96  ls
+   97  cd /
+   98  ls
+   99  cd dir
+  100  ls
+  101  cd dir1/
+  102  ls
+  103  cd dir2/
+  104  ls
+  105  cd ..
+  106  ld
+  107  ls
+  108  cd .~file
+  109  cd ~file
+  110  cd /dir/dir1/dir2
+  111  ls
+  112  cd cd /
+  113  cd 
+  114  cd /
+  115  ls
+  116  cd /~file
+  117  cd .~fil
+  118  cd .~file
+  119  cd */ file
+  120  ls
+  121  cd  /
+  122  ls
+  123  cd ~*file
+  124  cd ~
+  125  cd /dir/dir1/dir2/file/
+  126  pwd
+  127  cd /
+  128  test -f file
+  129  echo $?
+  130  test -e file
+  131  echo $?
+  132  cd dir/
+  133  cd ~file
+  134  cd /
+  135  ls
+  136  exit
+  137  pwd
+  138  apt update
+  139  apt list --upgradable
+  140  exit
+  141  ls
+  142  touch wiki.txt
+  143  chmod 700 wiki.txt 
+  144  ls
+  145  vi wiki.txt 
+  146  cat wiki.txt 
+  147  cat wiki.txt |head
+  148  cat wiki.txt |head 10
+  149  cat wiki.txt |head
+  150  head wiki.txt 
+  151  cat wiki.txt |tail 
+  152  cat wiki.txt |tail 10
+  153  tail wiki.txt 
+  154  cd
+  155  ls
+  156  cd /
+  157  touch file.sh
+  158  chmod u+x file.sh 
+  159  vi file.sh 
+  160  bash file.sh 
+  161  history
+  162  history >history.txt
